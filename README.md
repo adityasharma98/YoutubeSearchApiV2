@@ -17,5 +17,5 @@ clone the repository and follow the steps:
 1. user terminal to cd into the root folder of the repository(folder containing the docker-compose.yml file)
 2. run the command docker-compose up -d
 3. on chrome type the following 2 URLS for both end points:
-  a. localhost:3000/api/GetAllVideos?pageNumber=anyNumber>0 
-  b. localhost:3000/api/SearchInVideos?queryString=anyValidString&pageNumber=anyNumber>0
+   - localhost:3000/api/GetAllVideos?pageNumber=anyNumber>0 
+   - localhost:3000/api/SearchInVideos?queryString=anyValidString&pageNumber=anyNumber>0
