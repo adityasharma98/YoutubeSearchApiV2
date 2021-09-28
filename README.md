@@ -6,9 +6,9 @@ There are 2 parts to this project:
 stores data in a mongo db database.
 
 2. 2 endpoints which return the following things
-   a. api/GetAllVideos?pageNumber=anyNumber>0
+   - api/GetAllVideos?pageNumber=anyNumber>0
       fetches all the videos stored in the db that map to the corresponding pageNumber
-   b. api/SearchInVideos?queryString=anyValidString&pageNumber=anyNumber>0
+   - api/SearchInVideos?queryString=anyValidString&pageNumber=anyNumber>0
       fetches all the videos stored in dp matching the query string as well as the pageNumber
 
 # How to Run
